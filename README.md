@@ -1,0 +1,1 @@
+This is going to be a better responsive version of my portfolio built on reactJS
