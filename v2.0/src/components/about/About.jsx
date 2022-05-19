@@ -1,26 +1,28 @@
 import React from 'react'
 import './about.css'
+import ME1 from '../../assets/me.about.jpg'
 import ME from '../../assets/me-about.jpg'
 import {CgWorkAlt} from 'react-icons/cg'
 import {BsPenFill} from 'react-icons/bs'
 import {BsGithub} from 'react-icons/bs'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import Slide from 'react-reveal/Slide'
 
 const About = () => {
   return (
     <section id='about'>
-      <h2>Get to Know me more..</h2>
-
+      <h2>Come get to Know me..</h2>
+      <Slide left>
       <div className="container about__container">
         <div className="about__hero">
         <div className="about__me">
 
           <div className="about__me-image">
-            <img src={ME} alt="again a beautiful bald man" />
+            <img src={ME1} alt="again a beautiful bald man" />
 
           </div>
         </div>
-        <h2>Go on....You can Click on these Tiles</h2>
+        <h2>Let's Get Straight to the point here..click on these Tiles</h2>
         </div>
         <div className="about__content">
           <div className="about__cards">
@@ -58,8 +60,8 @@ const About = () => {
             <a href="">
             <article className="about__card">
             <BsFillPersonLinesFill className='about__icon' size='25'/>
-              <h5><br /> <u>More About Me...</u> </h5>
-            <small>Click to know my story  <br /> <br /> </small>
+              <h5><br /> <u>My Story...</u> </h5>
+            <small>Click to know more about me  <br /> <br /> </small>
             </article>
             </a>
             
@@ -69,6 +71,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      </Slide>
     </section>
   )
 }

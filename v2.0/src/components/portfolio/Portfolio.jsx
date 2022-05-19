@@ -6,6 +6,7 @@ import img3 from '../../assets/portfolio3.jpg'
 import img4 from '../../assets/portfolio4.jpg'
 import img5 from '../../assets/portfolio5.png'
 import img6 from '../../assets/portfolio6.jpg'
+import Slide from 'react-reveal/Slide'
 
 const Portfolio = () => {
   return (
@@ -14,6 +15,7 @@ const Portfolio = () => {
       <h2>Featured Projects</h2>
 
       <div className="container portfolio__container">
+        <Slide bottom cascade>
         <article className="portfolio__item">
           <div className="portfolio__item__image">
           <img src={img1} alt="" />
@@ -74,6 +76,7 @@ const Portfolio = () => {
             <a href="https://www.google.com"  className="btn btn-primary" target='_blank'  rel='noreferrer'>Live View</a>
           </div>
         </article>
+        </Slide>
       </div>
     </section>
   )

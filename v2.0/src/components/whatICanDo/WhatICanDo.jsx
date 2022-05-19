@@ -1,6 +1,7 @@
 import React from 'react'
 import './whaticando.css'
 import {BiCheck} from 'react-icons/bi'
+import Slide from 'react-reveal/Slide'
 
 const WhatICanDo = () => {
   return (
@@ -10,7 +11,8 @@ const WhatICanDo = () => {
       <div className="container whaticando__container">
         
         {/*===========UI/UX Design=========*/}
-        
+
+        <Slide bottom cascade>
         <article className="whaticando">
           <div className="whaticando__head">
             <h3>UI/UX</h3>
@@ -104,6 +106,7 @@ const WhatICanDo = () => {
 
           </ul>
         </article>
+        </Slide>
       </div>
     </section>
   )

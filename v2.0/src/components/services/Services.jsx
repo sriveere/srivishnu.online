@@ -1,6 +1,7 @@
 import React from 'react'
 import './services.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
+import Slide from 'react-reveal/Slide'
 
 const Services = () => {
   return (
@@ -9,6 +10,7 @@ const Services = () => {
       <h2>This is my Toolkit</h2>
 
       <div className="container services__container">
+        <Slide right cascade>
         <div className="services__frontend">
           <h3>Frontend Development</h3>
           <div className="services__content">
@@ -65,6 +67,8 @@ const Services = () => {
             </article>
           </div>
         </div>
+      
+        </Slide>
       </div>
     </section>
   )

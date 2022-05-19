@@ -3,9 +3,15 @@
     grid-template-columns: repeat(3 , 1fr);
     gap: 2.5rem;
 }
+#portfolio h2{
+    margin-bottom: 0.5rem;
+    
+
+}
 .portfolio__item {
     background: var(--color-bg-variant);
     padding: 1.2rem;
+    margin-bottom: 0rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -46,10 +52,6 @@
         grid-template-columns: 1fr;
         gap: 1rem;
         
-    }
-    .container.portfolio__container{
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
     }
     
 }
