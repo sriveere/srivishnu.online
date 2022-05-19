@@ -1,7 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME1 from '../../assets/me.about.jpg'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/me-about.webp'
 import {CgWorkAlt} from 'react-icons/cg'
 import {BsPenFill} from 'react-icons/bs'
 import {BsGithub} from 'react-icons/bs'
@@ -18,7 +17,7 @@ const About = () => {
         <div className="about__me">
 
           <div className="about__me-image">
-            <img src={ME1} alt="again a beautiful bald man" />
+            <img src={ME} alt="again a beautiful bald man" />
 
           </div>
         </div>

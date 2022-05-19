@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css'
-import ME from '../../assets/me.png'
+import ME from '../../assets/me.webp'
 import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
 import HeaderEmail from './HeaderEmail'
