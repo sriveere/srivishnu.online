@@ -35,6 +35,9 @@ header{
     bottom: 0rem;
 
 }
+a #social__icon{
+    size: 48;
+}
 .header__socials::after {
     content: "";
     width: 1px;

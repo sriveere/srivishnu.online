@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.webp'
+import overlay from '../../assets/me-about-overlay.webp'
 import {CgWorkAlt} from 'react-icons/cg'
 import {BsPenFill} from 'react-icons/bs'
 import {BsGithub} from 'react-icons/bs'
@@ -8,6 +9,14 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Slide from 'react-reveal/Slide'
 
 const About = () => {
+  const handleblogClick = () => {
+    alert('My Blog is Coming soon Until then You can check my instagram out!')
+  }
+
+  const handleStoryClick = () => {
+    alert('Yeah this page is also not Done Yet.... You see I am Slow with CSS and I like my pages to look good, soooo... yeah It\'s Taking Time ')
+  }
+
   return (
     <section id='about'>
       <h2>Come get to Know me..</h2>
@@ -17,8 +26,8 @@ const About = () => {
         <div className="about__me">
 
           <div className="about__me-image">
-            <img src={ME} alt="again a beautiful bald man" />
-
+            <img src={ME} alt="again a beautiful bald man" className='under' />
+            <img src={overlay} alt="color overlay" className='overlay' />
           </div>
         </div>
         <h2>Let's Get Straight to the point here..click on these Tiles</h2>
@@ -49,20 +58,20 @@ const About = () => {
 
 
             
-            <a href="https://www.instagram.com/sri_wierdo" target="_blank" rel='noreferrer'><article className="about__card">
+            <div href="https://www.instagram.com/sri_wierdo" onClick={handleblogClick} target="_blank" rel='noreferrer'><article className="about__card">
               <BsPenFill className='about__icon' />
               <h5>My Blog</h5>
               <small>I write about my journey through coding and may be some cheesy poetry</small>
             </article>
-            </a>
+            </div>
             {/*==============More About me=========*/}            
-            <a href="">
+            <div onClick={handleStoryClick}>
             <article className="about__card">
             <BsFillPersonLinesFill className='about__icon' size='25'/>
               <h5><br /> <u>My Story...</u> </h5>
             <small>Click to know more about me  <br /> <br /> </small>
             </article>
-            </a>
+            </div>
             
 
 

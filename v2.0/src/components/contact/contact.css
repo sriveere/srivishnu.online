@@ -62,7 +62,9 @@ input, textarea {
     .container.contact__container {
         grid-template-columns: 1fr;
         gap: 2rem;
-        margin-left: 1rem;
+        width: var(--container-width-md);
+       
+        margin-left: 3.5rem;
         margin-right: 1rem;
     }
     .hidden {
@@ -76,6 +78,7 @@ input, textarea {
 @media screen and (max-width: 600px) {
     .container.contact__container {
         width: var(--container-width-sm);
+        margin-left: 1.2rem;
     }
     
 }

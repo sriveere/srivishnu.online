@@ -1,6 +1,6 @@
 import React from 'react'
 import './workex.css'
-import logo1 from '../../assets/avatar1.jpg'
+import logo1 from '../../assets/avatar1.webp'
 import logo2 from '../../assets/avatar2.jpg'
 import logo3 from '../../assets/avatar3.jpg'
 import logo4 from '../../assets/avatar4.jpg'
@@ -19,8 +19,8 @@ import 'swiper/css/pagination';
 const data = [
   {
     logo : logo1,
-    Name: 'Company_Name',
-    work: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore tempora, incidunt aliquam labore, est quo accusantium beatae magnam dicta velit perspiciatis dolor praesentium optio, recusandae reprehenderit cupiditate? Id, eligendi repellat!'
+    Name: 'Scaler Academy',
+    work: 'I was Part of the Business Development team, where I was responsibile for providing the necessary consult for the sales Team, when they need any technical assiatance, I was part of a team developing an internal Lead management tool for team as well.'
     
     },
     {

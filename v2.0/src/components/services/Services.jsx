@@ -16,6 +16,14 @@ const Services = () => {
           <div className="services__content">
             <article className="services__details">
               <BsPatchCheckFill className='services__details-icon'/>
+              <h4>React</h4>
+            </article>
+            <article className="services__details">
+              <BsPatchCheckFill className='services__details-icon'/>
+              <h4>Redux</h4>
+            </article>
+            <article className="services__details">
+              <BsPatchCheckFill className='services__details-icon'/>
               <h4>HTML</h4>
             </article>
             <article className="services__details">
@@ -24,20 +32,12 @@ const Services = () => {
             </article>
             <article className="services__details">
               <BsPatchCheckFill className='services__details-icon'/>
-              <h4>javaScript</h4>
+              <h4>Material UI</h4>
             </article>
             <article className="services__details">
               <BsPatchCheckFill className='services__details-icon'/>
-              <h4>React</h4>
-            </article>
-            <article className="services__details">
-              <BsPatchCheckFill className='services__details-icon'/>
-              <h4>Bootstrap</h4>
-            </article>
-            <article className="services__details">
-              <BsPatchCheckFill className='services__details-icon'/>
-              <h4>Tailwind</h4>
-            </article>
+              <h4>Java Script</h4>
+            </article>            
           </div>
 
         </div>
@@ -59,12 +59,16 @@ const Services = () => {
             </article>
             <article className="services__details">
               <BsPatchCheckFill className='services__details-icon'/>
-              <h4>Redux</h4>
+              <h4>Commerce.js</h4>
+            </article>
+            <article className="services__details">
+              <BsPatchCheckFill className='services__details-icon'/>
+              <h4>Scripe</h4>
             </article>
             <article className="services__details">
               <BsPatchCheckFill className='services__details-icon'/>
               <h4>Python</h4>
-            </article>
+            </article>            
           </div>
         </div>
       
