@@ -56,7 +56,7 @@ const Portfolio = () => {
             <h3>This Beautiful Portfolio</h3>
             <small>The Site you are currently On.. <br /> It was Built with Mobile First in mind and Fully upgradeable and expandable</small>
             <div className="portfolio__item-cta">
-            <a href="https://www.github.com/sri-wierdo" className='btn' target='_blank' rel='noreferrer' >View Code</a>
+            <a href="https://github.com/sri-wierdo/srivishnu.online/tree/main/v2.0" className='btn' target='_blank' rel='noreferrer' >View Code</a>
           </div>
         </article>
         <article className="portfolio__item">
